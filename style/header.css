@@ -1,0 +1,109 @@
+ul, li{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	margin: 0;
+}
+#header{
+	height: 4vw;
+}
+#links_logo{
+	
+}
+.links_logo{
+	position: absolute;
+    font-size: 0.9vw;
+    font-family: "Roboto", sans-serif;
+    top: 1.5vw;
+    left: 16vw;
+    color: rgba(0, 0, 0, 0.7);
+}
+.logo{
+	position: relative;
+    left: 6vw;
+    top: 1.2vw;
+}
+#links_logo img{
+	width: 7%;
+}
+#links_logo li{
+	display: inline;
+    list-style: none;
+    margin-right: 1vw;
+	cursor: pointer;
+}
+#phone{
+	right: 5vw;
+    position: absolute;
+    font-size: 0.8vw;
+    font-family: "Roboto", sans-serif;
+    top: 1.5vw;
+    color: rgba(0, 0, 0, 0.9);
+}
+#phone li{
+	display: inline;
+    list-style: none;
+    margin-right: 1vw;
+	cursor: pointer;
+}
+@media screen and (max-width: 900px){
+button {
+    font-size: 2.5vw;
+    padding: 3vw 4vw;
+    border-radius: 1.5vw;
+}
+#banner {
+    height: 150vw;
+    background-position: 40%;
+}
+#banner p {
+    font-size: 2vw;
+    font-family: "Roboto";
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 8vw;
+}
+.card {
+    position: relative;
+    top: -65vw;
+    left: 15vw;
+}
+.card img {
+    height: 75%;
+}
+.content {
+    position: relative;
+    top: 90vw;
+    left: 0;
+    text-align: center;
+}
+#banner h1 {
+    font-size: 4.5vw;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 300;
+    line-height: unset;
+    margin: 0;
+}
+.links_logo, #phone{ display: none;}
+.logo {
+    position: relative;
+    left: 0;
+    top: 4vw;
+    text-align: center;
+}
+#links_logo img {
+    width: 25%;
+}
+#header {
+    height: 15vw;
+}
+
+}
